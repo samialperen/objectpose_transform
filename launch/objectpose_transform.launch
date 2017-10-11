@@ -1,0 +1,8 @@
+<launch>
+        
+	<node name="objectpose_transform" pkg="objectpose_transform" type="objectpose_transform" />  
+	<node name="forktransform" pkg="objectpose_transform" type="forktransform" />  
+	<node name="platetransform" pkg="objectpose_transform" type="platetransform" />  
+
+</launch>
+

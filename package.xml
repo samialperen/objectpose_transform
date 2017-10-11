@@ -1,0 +1,23 @@
+<package>
+  <name>objectpose_transform</name>
+  <version>1.12.7</version>
+  <description>
+  This package can transform data coming from morse object pose sensor to tf
+  </description>
+  <maintainer email="sami.akgun@ieee.metu.edu.tr">PR-foobar</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>tf</build_depend>
+
+  <run_depend>tf</run_depend>  
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+</package>
